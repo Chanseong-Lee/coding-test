@@ -1,0 +1,6 @@
+-- 코드를 입력하세요
+-- el이 들어가는 Dog의 아이디와 이름
+SELECT ANIMAL_ID, NAME
+FROM ANIMAL_INS
+WHERE LOWER(NAME) LIKE '%el%' AND ANIMAL_TYPE = 'Dog'
+ORDER BY NAME ASC;
